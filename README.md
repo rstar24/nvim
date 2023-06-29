@@ -7,4 +7,7 @@ It contains my plugins and settings
 I will make better and better 
 
 I am not being able to get the icons in my neovim 
-lets fix this 
+lets fix this
+
+
+I am adding few lines for second commit
