@@ -19,6 +19,7 @@ require("lazy").setup({
     --THeme that i like
     { "nordtheme/vim" },
     { "catppuccin/nvim" },
+    { "bluz71/vim-nightfly-guicolors" },
     --for Icons
     --{ "yamatsum/nvim-nonicons" },
     --{ "projekt0n/circles.nvim" },
@@ -32,6 +33,8 @@ require("lazy").setup({
     { "nvim-treesitter/nvim-treesitter" },
     { "theHamsta/nvim-dap-virtual-text" },
     { "nvim-telescope/telescope-dap.nvim" },
+    -- for making surrounding keybinds
+    { "kylechui/nvim-surround" },
     -- import any extras modules here
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.json" },
@@ -48,7 +51,7 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "gruvbox", "habamax" } },
+  install = { colorscheme = { "nightfly", "gruvbox", "habamax" } },
   checker = { enabled = true }, -- automatically check for plugin updates
   performance = {
     rtp = {
