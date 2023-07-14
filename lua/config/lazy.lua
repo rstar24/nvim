@@ -9,7 +9,9 @@ vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 require("lazy").setup({
   spec = {
-    -- add LazyVim and import its plugins
+    --ALl the plugins that i want will be installed here
+    --I am going to do every thing on top of this lazyvim conf
+
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     { "lervag/vimtex" },
     { "fadein/vim-figlet" },
@@ -27,6 +29,7 @@ require("lazy").setup({
     { "nvim-tree/nvim-web-devicons" },
     -- vimtex
     -- for live reload for
+    --{ "folke/persistence.nvim" },
     { "frabjous/knap" },
     { "mfussenegger/nvim-dap" },
     { "rcarriga/nvim-dap-ui" },
@@ -50,8 +53,42 @@ require("lazy").setup({
     -- have outdated releases, which may break your Neovim install.
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
+    {
+      "LazyVim/LazyVim",
+      opts = {
+        colorscheme = "catppuccin",
+      },
+    },
+    {
+      "catppuccin/nvim",
+      name = "catppuccin",
+      opts = {
+        term_colors = true,
+        transparent_background = false,
+        styles = {
+          comments = {},
+          conditionals = {},
+          loops = {},
+          functions = {},
+          keywords = {},
+          strings = {},
+          variables = {},
+          numbers = {},
+          booleans = {},
+          properties = {},
+          types = {},
+        },
+        color_overrides = {
+          mocha = {
+            base = "#000000",
+            mantle = "#000000",
+            crust = "#000000",
+          },
+        },
+      },
+    },
   },
-  install = { colorscheme = { "nightfly", "gruvbox", "habamax" } },
+  --install = { colorscheme = { "gruvbox", "habamax" } },
   checker = { enabled = true }, -- automatically check for plugin updates
   performance = {
     rtp = {
@@ -63,7 +100,7 @@ require("lazy").setup({
         -- "netrwPlugin",
         "tarPlugin",
         "tohtml",
-        "tutor",
+        --"tutor",
         "zipPlugin",
       },
     },

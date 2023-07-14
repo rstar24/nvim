@@ -1,3 +1,7 @@
+if true then
+  return {}
+end
+
 if vim.g.neovide then
   --vim.g.neovide_padding_top = 10
 
