@@ -30,6 +30,7 @@ require("lazy").setup({
     -- vimtex
     -- for live reload for
     --{ "folke/persistence.nvim" },
+    { "junegunn/fzf" },
     { "frabjous/knap" },
     { "mfussenegger/nvim-dap" },
     { "rcarriga/nvim-dap-ui" },
@@ -53,7 +54,7 @@ require("lazy").setup({
     -- have outdated releases, which may break your Neovim install.
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
-    {
+    --[[{
       "LazyVim/LazyVim",
       opts = {
         colorscheme = "catppuccin",
@@ -86,7 +87,7 @@ require("lazy").setup({
           },
         },
       },
-    },
+    },--]]
   },
   --install = { colorscheme = { "gruvbox", "habamax" } },
   checker = { enabled = true }, -- automatically check for plugin updates
