@@ -1,6 +1,7 @@
 # 💤 LazyVim
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+08:13 qqexit
+ qqexitstarter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
 It contains my plugins and settings
@@ -11,3 +12,8 @@ lets fix this
 
 
 I am adding few lines for second commit
+
+(This is a operand one for merging the test)
+
+
+
