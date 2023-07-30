@@ -22,3 +22,6 @@ I am adding few lines for second commit
 This is an attempt to understand the 
 rebase command of git 
 
+buddha Said Patience has 
+limits
+
