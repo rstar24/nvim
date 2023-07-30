@@ -15,5 +15,8 @@ I am adding few lines for second commit
 
 (This is a operand one for merging the test)
 
+(This is the merge file for the part 2)
+(Patience has limits buddha)
+
 
 
