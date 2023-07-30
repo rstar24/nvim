@@ -19,4 +19,6 @@ I am adding few lines for second commit
 (Patience has limits buddha)
 
 
+This is an attempt to understand the 
+rebase command of git 
 
