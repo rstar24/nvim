@@ -2,10 +2,10 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nightfly",
+      colorscheme = "catppuccin",
     },
   },
-  {
+  --[[{
     "catppuccin/nvim",
     name = "catppuccin",
     opts = {
@@ -32,7 +32,7 @@ return {
         },
       },
     },
-  },
+  },--]]
 }
 --this makes the tokyonight transparent
 --can let see if nord can be made transparent
