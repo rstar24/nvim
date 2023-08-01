@@ -2,10 +2,10 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "catppuccin-mocha",
     },
   },
-  --[[{
+  {
     "catppuccin/nvim",
     name = "catppuccin",
     opts = {
@@ -30,9 +30,24 @@ return {
           mantle = "#000000",
           crust = "#000000",
         },
+        frappe = {
+          base = "#000000",
+          mantle = "#000000",
+          crust = "#000000",
+        },
+        latte = {
+          base = "#000000",
+          mantle = "#000000",
+          crust = "#000000",
+        },
+        macchiato = {
+          base = "#000000",
+          mantle = "#000000",
+          crust = "#000000",
+        },
       },
     },
-  },--]]
+  },
 }
 --this makes the tokyonight transparent
 --can let see if nord can be made transparent

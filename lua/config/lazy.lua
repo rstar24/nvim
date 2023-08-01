@@ -18,9 +18,9 @@ require("lazy").setup({
     { "L3MON4D3/LuaSnip" },
     { "SirVer/ultisnips" },
     { "ellisonleao/gruvbox.nvim" },
+    { "ThePrimeagen/harpoon" },
     --THeme that i like
     { "nordtheme/vim" },
-    { "catppuccin/nvim" },
     { "bluz71/vim-nightfly-guicolors" },
     --for Icons
     --{ "yamatsum/nvim-nonicons" },
