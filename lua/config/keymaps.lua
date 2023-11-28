@@ -28,11 +28,12 @@ kmap({ "n", "v", "i" }, "<F8>", function()
 end)
 
 ----this is the dap keybinds----
-
+--[[
 kmap("n", "<F5>", require("dap").continue)
 kmap("n", "<F10>", require("dap").step_over)
 kmap("n", "<F11>", require("dap").step_into)
 kmap("n", "<F12>", require("dap").step_out)
 kmap("n", "<leader>b", require("dap").toggle_breakpoint)
-
 ---#it ends here #-----
+--]]
+--The lua snipp keybinds

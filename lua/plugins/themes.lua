@@ -10,7 +10,7 @@ return {
     name = "catppuccin",
     opts = {
       term_colors = true,
-      transparent_background = true,
+      --transparent_background = false,
       styles = {
         comments = {},
         conditionals = {},
