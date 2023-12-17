@@ -9,9 +9,10 @@ vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 require("lazy").setup({
   spec = {
+    --cellular automaton
+    { "eandrju/cellular-automaton.nvim" },
     --ALl the plugins that i want will be installed here
-    --I am going to do every thing on top of this lazyvim conf
-
+    --I am going to do every thing on top of this lazyvim config
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     { "lervag/vimtex" },
     { "fadein/vim-figlet" },
