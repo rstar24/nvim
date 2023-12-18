@@ -1,3 +1,4 @@
--- bootstrap lazy.nvim, LazyVim and your plugins_str
-
-require("config.lazy")
+print("Trying again from scratch")
+require("core.remaps")
+require("plugins")
+require("theme")
