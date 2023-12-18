@@ -6,6 +6,7 @@ function ColorMyPencils(color)
     vim.api.nvim_set_hl(0,"NormalFloat",{bg = "none"})
 end
 
+--[[
 require'nvim-web-devicons'.setup {
  -- your personnal icons can go here (to override)
  -- you can specify color or cterm_color instead of specifying both of them
@@ -48,5 +49,6 @@ require'nvim-web-devicons'.setup {
   }
  };
 }
+--]]
 
 ColorMyPencils()

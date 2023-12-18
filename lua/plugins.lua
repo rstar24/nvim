@@ -15,6 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
     "dracula/vim",
     { "catppuccin/nvim", name = "catppuccin" },
+    "lervag/vimtex",
     --"nvim-tree/nvim-web-devicons",
     --Telescope Plugin
     {
