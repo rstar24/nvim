@@ -13,16 +13,18 @@ vim.opt.rtp:prepend(lazypath)
 
 --The plugin list for the neovim
 local plugins = {
-    "dracula/vim",
-    { "catppuccin/nvim", name = "catppuccin" },
+    -- Experimenting with 
+    -- Github Copilot
+    "zbirenbaum/copilot.lua",
     "lervag/vimtex",
+    "eandrju/cellular-automaton.nvim",
     --"nvim-tree/nvim-web-devicons",
     --Telescope Plugin
     {
         "nvim-telescope/telescope.nvim", tag = '0.1.5',
         dependencies = { 'nvim-lua/plenary.nvim'}
     },
-    ---[[
+    ---[[ all themes 
     {
         "rose-pine/nvim",
         as = 'rose-pine',
@@ -30,6 +32,8 @@ local plugins = {
             vim.cmd('colorscheme rose-pine')
         end
     },
+    "dracula/vim",
+    { "catppuccin/nvim", name = "catppuccin" },
     --]]
     --Treesitter for the syntax highlighting
     {
@@ -40,6 +44,7 @@ local plugins = {
     "theprimeagen/harpoon",
     "mbbill/undotree",
     "tpope/vim-fugitive", 
+
     --THe lsp here 
     ----- Uncomment these if you want to manage LSP servers from neovim
     {'williamboman/mason.nvim'},
@@ -49,7 +54,6 @@ local plugins = {
     {'hrsh7th/cmp-nvim-lsp'},
     {'hrsh7th/nvim-cmp'},
     {'L3MON4D3/LuaSnip'},
-
 }
 
 local opts = {}
