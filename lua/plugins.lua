@@ -15,7 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
     -- Experimenting with 
     -- Github Copilot
-    "zbirenbaum/copilot.lua",
+    --"zbirenbaum/copilot.lua",
     "lervag/vimtex",
     "eandrju/cellular-automaton.nvim",
     --"nvim-tree/nvim-web-devicons",
