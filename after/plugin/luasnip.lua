@@ -84,8 +84,12 @@ end
 --require("luasnip.loaders.from_vscode").load({ paths = { "./my-snippets" } })
 --require("luasnip.loaders.from_vscode").lazy_load({ paths = { "~/.config/nvim/my_snippets" } })
 --require("luasnip.loaders.from_vscode").lazy_load({paths = "~/.config/nvim/my_snippets"})
-
-require("luasnip.loaders.from_vscode").load_standalone({path = "~/.config/nvim/my_snippets/a.code-snippets"})
+--
+--It works
+--require("luasnip.loaders.from_vscode").load_standalone({path = "~/.config/nvim/my_snippets/a.code-snippets"})
+--Finally it works 
+--The way I want it to work
+require("luasnip.loaders.from_vscode").lazy_load({paths = "~/.config/nvim/my_snippets"})
 
 vim.keymap.set("i","<c-l>", function()
     if ls.choice_active() then

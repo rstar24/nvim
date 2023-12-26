@@ -6,13 +6,13 @@
 				"language": [
 					"all"
 				],
-				"path": "./my_snippets/all.json"
+				"path": "./snippets/all.json"
 			},
 			{
 				"language": [
 					"lua"
 				],
-				"path": "./my_snippets/lua.json"
+				"path": "./snippets/lua.json"
 			}
 		]
 	}
