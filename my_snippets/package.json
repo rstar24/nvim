@@ -4,15 +4,21 @@
 		"snippets": [
 			{
 				"language": [
-					"all"
+					"c"
 				],
-				"path": "./snippets/all.json"
+				"path": "./snippets/c.json"
 			},
 			{
 				"language": [
 					"lua"
 				],
 				"path": "./snippets/lua.json"
+			},
+			{
+				"language": [
+					"cpp"
+				],
+				"path": "./snippets/cpp.json"
 			}
 		]
 	}
