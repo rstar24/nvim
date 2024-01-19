@@ -1,4 +1,20 @@
 {
+    "tinycpp2": {
+        "prefix": "cp2",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "",
+            "int main(){",
+            "    ios::sync_with_stdio(0);",
+            "    cin.tie(0);",
+            "    ",
+            "    $0",
+            "    return 0;",
+            "}"
+        ],
+        "description": "tiny cp program"
+    },
     "tinycpp": {
         "prefix": "cp1",
         "body": [
