@@ -14,9 +14,10 @@ vim.keymap.set('n','<leader>x', function()
 end,
 {noremap = true})
 --print(current_file_path)
---print(target_name)
+--print(target_name):
 --print(current_file_name)
 --print(target_path)
---print(target_loc)
+--+11 /home/rstar24/test/test.cpp -o /home/rstar24/test/test && clear &&/home/rstar24/test/test | lolcat 
 
-print(final)
+--print(final)
+print("I am here")

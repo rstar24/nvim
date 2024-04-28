@@ -13,6 +13,8 @@ vim.opt.rtp:prepend(lazypath)
 
 --The plugin list for the neovim
 local plugins = {
+    -- Rust tools for experimentation
+    "simrat39/rust-tools.nvim",
     -- Experimenting with
     -- Github Copilot
     --"zbirenbaum/copilot.lua",
