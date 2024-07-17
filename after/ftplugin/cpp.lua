@@ -7,17 +7,11 @@ local compile_run = string.format("g++ --std=c++11 %s -o %s && clear &&%s | lolc
 local final = string.format("tmux send-keys -t 0:0.1 '%s' Enter",compile_run)
 
 vim.keymap.set('n','<leader>x', function()
-
     vim.fn.system(final)
-    print("I am working")
-    print(final)
 end,
 {noremap = true})
+
 --print(current_file_path)
 --print(target_name):
 --print(current_file_name)
 --print(target_path)
---+11 /home/rstar24/test/test.cpp -o /home/rstar24/test/test && clear &&/home/rstar24/test/test | lolcat 
-
---print(final)
-print("I am here")

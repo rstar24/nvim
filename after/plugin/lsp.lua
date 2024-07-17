@@ -28,6 +28,8 @@ require('mason-lspconfig').setup({
   },
 })
 
+-- Set clangd formatter options
+
 --[[local luasnip = require('luasnip')
 local cmp = require('cmp')
 
