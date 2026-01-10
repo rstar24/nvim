@@ -1,5 +1,5 @@
 {
-	"name": "example-snippets",
+	"name": "snippets",
 	"contributes": {
 		"snippets": [
 			{
@@ -10,15 +10,9 @@
 			},
 			{
 				"language": [
-					"lua"
-				],
-				"path": "./snippets/lua.json"
-			},
-			{
-				"language": [
 					"cpp"
 				],
-				"path": "./snippets/cpp.json"
+				"path": "./cpp.json"
 			}
 		]
 	}
